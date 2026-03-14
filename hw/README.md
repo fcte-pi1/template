@@ -10,4 +10,5 @@ Esta pasta deverá armazenar arquivos referentes a:
 - Imagens PNG e JPEG de resultados práticos: fotos de testes reais, gráficos de resultados etc.
 - Outros arquivos referentes ao _hardware_ do projeto.
 
-**Não acrescente código-fonte a esta pasta.** O código desenvolvido para microcontroladores e SOCs ([Arduino](https://www.arduino.cc/), [ESP32](https://www.espressif.com/), [Raspberry Pi](https://www.raspberrypi.com/)) deverá ser armazenado na pasta [src/firmware](https://github.com/fcte-pi1/template/tree/main/src/firmware) deste repositório.
+> [!WARNING]
+> **Não acrescente código-fonte a esta pasta.** O código desenvolvido para microcontroladores e SOCs ([Arduino](https://www.arduino.cc/), [ESP32](https://www.espressif.com/), [Raspberry Pi](https://www.raspberrypi.com/)) deverá ser armazenado na pasta [src/firmware](https://github.com/fcte-pi1/template/tree/main/src/firmware) deste repositório.
