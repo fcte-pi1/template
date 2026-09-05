@@ -9,4 +9,4 @@ A EAP representa a decomposição hierárquica do escopo total do trabalho a ser
 
 A figura abaixo ilustra uma EAP genérica de um sistema de aeronaves:
 
-![Calendário 2026/2](https://github.com/fcte-pi1/template/blob/main/docs/figs/Calendario.png?raw=true)
+![Calendário 2026/2](https://github.com/fcte-pi1/template/blob/main/docs/figs/Exemplo-de-EAP-com-Entregas-Principais-1263x780.png?raw=true)
