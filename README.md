@@ -1,18 +1,58 @@
-# Template PI1
+# Projeto Micromouse
 
-![Calendário 2026/2](https://github.com/fcte-pi1/template/blob/main/docs/figs/Calendario.png?raw=true)
+Este repositório reúne a documentação, organização e padrões de desenvolvimento do projeto Micromouse. O objetivo do projeto é construir um robô autônomo capaz de explorar, mapear e solucionar labirintos, utilizando integração entre mecânica, eletrônica, controle, firmware, software embarcado e telemetria.
 
-Esse é o _template_ de repositório para ser utilizado pelos grupos de PI1 para organizar seu projeto. O _template_ é dividido em pastas, onde cada parte do projeto deve ser armazenada. Os arquivos a serem armazenados incluem documentação, código-fonte, arquivos de CAD, esquemáticos, arquivos de simulação de circuitos, e dados.
+## Sobre o Projeto
 
-A organização e a correta utilização do repositório do projeto serão considerados na avaliação do grupo. Dessa forma, recomenda-se que *todos os membros* do grupo leiam as instruções deste repositório, aprendam a a utilizar o `git` (caso ainda não saibam) e também que o grupo combine uma estratégia de como irão utilizar o repositório em conjunto. Dessa forma não deixem de utilizar todas as ferramentas que o GitHub oferece, incluindo _branches_, PRs, revisões, _issues_, calendários, dentre outros.
+O Micromouse será desenvolvido de forma modular, permitindo que os subgrupos trabalhem em paralelo com responsabilidades bem definidas. A documentação deste repositório serve como base comum para manter decisões técnicas, padrões de contribuição e informações da equipe centralizadas.
 
-Lembrem sempre de evitar enviar arquivos muito grandes (>5MB). No caso de vídeos e outros arquivos pesados que são necessários, armazenar o arquivo em outra plataforma e colocar aqui apenas o _link_.
+## Membros
 
-> [!IMPORTANTE]
-> A estrutura de pastas do projeto não reflete a divisão de equipes. Os membros podem e devem trabalhar nas diferentes pastas a depender da necessidade do projeto.
+| **Nome** | **Matrícula** | **Curso** | **Funções** |
+|---|---|---|---|
+| Arthur Mezzaroba Scartezini | 241025176 | Engenharia de Software | Hardware |
+| Arthur Miranda Silva | 251035971 | Engenharia de Software | Hardware |
+| Carlos Henrique Brasil de Souza | 232014404 | Engenharia de Software | Hardware |
+| Davi Monteiro de Negreiros | 232013971 | Engenharia de Software | Líder Geral |
+| Frederico Rolim Walter | 231011373 | Engenharia Aeroespacial | Estrutura |
+| Gabriel Pinto Simplicio | 251035200 | Engenharia de Software | Estrutura |
+| Gabriella Orlando Avelino de Carvalho Veríssimo | 242004690 | Engenharia de Software | Estrutura |
+| Guilherme Ferreira Mendes | 241025935 | Engenharia de Software | Hardware |
+| Guilherme Negreiros Pereira | 232014001 | Engenharia de Software | Sub-líder de Software |
+| Ian Pedersoli Barbosa | 241025944 | Engenharia de Software | Hardware |
+| João Marcelo Guimarães Costa Naves | 232014709 | Engenharia de Software | Hardware |
+| João Paulo Oliveira César | 242004760 | Engenharia de Software | Software |
+| João Paulo Pires Silva | 251010909 | Engenharia de Software | Software |
+| Kaio Amory | 241012276 | Engenharia de Software | Hardware |
+| Otávio | 242004911 | Engenharia de Software | Software |
+| Paulo Renato Medrado Roque | 221035068 | Engenharia Automotiva | Estrutura |
+| Pietro Calegari Visentin | 232014754 | Engenharia de Software | Software |
+| Tamires Lima Araújo | 241037551 | Engenharia Aeroespacial | Sub-líder de Estrutura |
+| Yogi Nam de Souza Barbosa | 232014576 | Engenharia de Software | Hardware |
 
-## Utilização
+**Orientador:** Bruno Luiz Pereira
 
-1. Crie o repositório do projeto utilizando a nomenclatura padrão no formato: `<ano>.<semestre>_PI1_Grupo<n>_<professor>`. Como um exemplo, um nome formado corretamente seria `2026.2_PI1_Grupo1_Diogo`. Para tanto, faça o fork do repositório template da disciplina: [repositório template](https://github.com/fcte-pi1/template/tree/main)
+## Subgrupos Sugeridos
 
-2. Crie o projeto da equipe no Github-Projects a partir do template: [projeto template](https://github.com/orgs/fcte-pi1/projects/6). O do projeto deve utilizar a mesma nomenclaturado repositório.
+- Estrutura
+- Hardware
+- Software
+
+## Documentação
+
+Os padrões de colaboração do projeto estão descritos nos arquivos abaixo:
+
+- [Padrão de Commit](docs/padroes_git/padrao_commit.md)
+- [Padrão de Branch](docs/padroes_git/padrao_branch.md)
+- [Padrão de Pull Request](docs/padroes_git/padrao_pr.md)
+
+## Organização Recomendada
+
+- Registrar decisões importantes em arquivos Markdown dentro de `docs`.
+- Manter nomes de branches, commits e pull requests padronizados.
+- Separar alterações por contexto para facilitar revisão e histórico.
+- Atualizar a documentação sempre que houver mudança relevante no projeto.
+
+## Status
+
+Projeto em fase inicial de estruturação. A telemetria já começou a ser montada em outro repositório e poderá ser integrada ou referenciada futuramente conforme a arquitetura do sistema evoluir.
